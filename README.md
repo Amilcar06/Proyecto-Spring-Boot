@@ -1,5 +1,5 @@
 # Proyecto-Spring-Boot
-Claro, aquí tienes un ejemplo de un archivo `README.md` que puedes utilizar para tu proyecto de **Spring Boot con PostgreSQL** para la gestión de estudiantes:
+Claro, aquí tienes un ejemplo de un archivo `README.md` que puedes utilizar para tu proyecto de **Spring Boot** para la gestión de estudiantes:
 
 # Proyecto de Gestión de Estudiantes - Spring Boot
 

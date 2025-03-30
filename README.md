@@ -61,4 +61,3 @@ Una vez que la aplicación esté ejecutándose, podrás hacer solicitudes HTTP a
 Puedes probar estas solicitudes utilizando herramientas como **Postman** o **cURL**.
 
 Si tienes más preguntas o necesitas ayuda, no dudes en abrir un **issue** en el repositorio.
-```

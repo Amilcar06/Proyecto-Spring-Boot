@@ -15,12 +15,11 @@ Este proyecto es una API RESTful construida con **Spring Boot** y utiliza **Post
 
 ## Tecnologías utilizadas
 
-- **Spring Boot**: Framework para la construcción de aplicaciones Java basadas en microservicios.
-- **PostgreSQL**: Sistema de gestión de bases de datos relacional utilizado para almacenar la información.
-- **JPA (Java Persistence API)**: Utilizado para la persistencia de los datos en PostgreSQL.
-- **Lombok**: Biblioteca que reduce el código repetitivo (como getters, setters, constructores).
-- **DTO (Data Transfer Object)**: Usado para transferir datos entre las capas de la aplicación.
-- **Maven**: Herramienta para la gestión de dependencias y construcción del proyecto.
+- Spring Boot: Framework para la construcción de aplicaciones Java basadas en microservicios.
+- JPA (Java Persistence API)**: Utilizado para la persistencia de los datos en PostgreSQL.
+- Lombok: Biblioteca que reduce el código repetitivo (como getters, setters, constructores).
+- DTO (Data Transfer Object)**: Usado para transferir datos entre las capas de la aplicación.
+- Maven: Herramienta para la gestión de dependencias y construcción del proyecto.
 
 ## Requisitos previos
 

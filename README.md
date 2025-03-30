@@ -1,7 +1,6 @@
 # Proyecto-Spring-Boot
 Claro, aquí tienes un ejemplo de un archivo `README.md` que puedes utilizar para tu proyecto de **Spring Boot con PostgreSQL** para la gestión de estudiantes:
 
-```markdown
 # Proyecto de Gestión de Estudiantes - Spring Boot
 
 Este proyecto es una API RESTful construida con **Spring Boot**. Su objetivo es proporcionar una plataforma para gestionar estudiantes en una universidad, permitiendo realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los registros de estudiantes.

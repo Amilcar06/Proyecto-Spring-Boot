@@ -47,7 +47,7 @@ mvn spring-boot:run
 
 Esto iniciará el servidor en el puerto **8080**.
 
-### 4. Acceder a la API
+### 3. Acceder a la API
 
 Una vez que la aplicación esté ejecutándose, podrás hacer solicitudes HTTP a la API:
 

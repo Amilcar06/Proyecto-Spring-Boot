@@ -7,10 +7,10 @@ Este proyecto es una API RESTful construida con **Spring Boot**. Su objetivo es 
 
 ## Funcionalidades
 
-- Crear Estudiante**: Permite agregar un nuevo estudiante a la base de datos.
-- Obtener Estudiantes**: Permite obtener la lista de estudiantes o un estudiante por su ID.
-- Actualizar Estudiante**: Permite modificar la información de un estudiante existente.
-- Eliminar Estudiante**: Permite eliminar un estudiante de la base de datos.
+- Crear Estudiante: Permite agregar un nuevo estudiante a la base de datos.
+- Obtener Estudiantes: Permite obtener la lista de estudiantes o un estudiante por su ID.
+- Actualizar Estudiane: Permite modificar la información de un estudiante existente.
+- Eliminar Estudiante: Permite eliminar un estudiante de la base de datos.
 
 ## Tecnologías utilizadas
 

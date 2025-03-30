@@ -8,10 +8,10 @@ Este proyecto es una API RESTful construida con **Spring Boot** y utiliza **Post
 
 ## Funcionalidades
 
-- **Crear Estudiante**: Permite agregar un nuevo estudiante a la base de datos.
-- **Obtener Estudiantes**: Permite obtener la lista de estudiantes o un estudiante por su ID.
-- **Actualizar Estudiante**: Permite modificar la información de un estudiante existente.
-- **Eliminar Estudiante**: Permite eliminar un estudiante de la base de datos.
+- Crear Estudiante**: Permite agregar un nuevo estudiante a la base de datos.
+- Obtener Estudiantes**: Permite obtener la lista de estudiantes o un estudiante por su ID.
+- Actualizar Estudiante**: Permite modificar la información de un estudiante existente.
+- Eliminar Estudiante**: Permite eliminar un estudiante de la base de datos.
 
 ## Tecnologías utilizadas
 
@@ -25,10 +25,9 @@ Este proyecto es una API RESTful construida con **Spring Boot** y utiliza **Post
 
 Para ejecutar este proyecto en tu máquina local, necesitas:
 
-- **Java 17 o superior** (recomendado).
-- **Maven**: Para gestionar las dependencias y la construcción del proyecto.
-- **PostgreSQL**: Base de datos para almacenar la información de los estudiantes.
-- **IDE (como IntelliJ IDEA o Eclipse)**: Para desarrollar y ejecutar el proyecto.
+- Java 17 o superior** (recomendado).
+- Maven: Para gestionar las dependencias y la construcción del proyecto.
+- IDE (como IntelliJ IDEA o Eclipse)**: Para desarrollar y ejecutar el proyecto.
 
 ## Configuración
 
@@ -39,21 +38,7 @@ git clone https://github.com/Amilcar06/Proyecto-Spring-Boot.git
 cd Proyecto-Spring-Boot
 ```
 
-### 2. Configurar la base de datos PostgreSQL
-
-Asegúrate de tener PostgreSQL instalado y ejecutándose en tu máquina. Crea una base de datos llamada **`mi_base_de_datos`** o el nombre que prefieras.
-
-Configura los parámetros de conexión en el archivo `src/main/resources/application.properties`:
-
-```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/mi_base_de_datos
-spring.datasource.username=tu_usuario
-spring.datasource.password=tu_contraseña
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-```
-
-### 3. Ejecutar la aplicación
+### 2. Ejecutar la aplicación
 
 - Abre tu terminal, navega a la carpeta del proyecto y ejecuta el siguiente comando:
 
@@ -75,30 +60,5 @@ Una vez que la aplicación esté ejecutándose, podrás hacer solicitudes HTTP a
 
 Puedes probar estas solicitudes utilizando herramientas como **Postman** o **cURL**.
 
-## Contribuciones
-
-Si deseas contribuir a este proyecto, por favor realiza un **fork** del repositorio y envía un **pull request** con tus cambios.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo **LICENSE** para más detalles.
-
----
-
 Si tienes más preguntas o necesitas ayuda, no dudes en abrir un **issue** en el repositorio.
 ```
-
-### Explicación:
-
-- **Descripción del Proyecto**: Proporciona una breve descripción del propósito del proyecto.
-- **Funcionalidades**: Lista las funcionalidades principales de la API.
-- **Tecnologías utilizadas**: Enumera las tecnologías y herramientas clave usadas en el proyecto.
-- **Requisitos previos**: Menciona lo que necesitas para ejecutar el proyecto en tu máquina local.
-- **Configuración**: Explica cómo clonar el repositorio, configurar la base de datos, y ejecutar el proyecto.
-- **API**: Proporciona ejemplos de los endpoints de la API.
-- **Contribuciones**: Instrucciones para contribuir al proyecto.
-- **Licencia**: Indica la licencia bajo la que se distribuye el proyecto.
-
----
-
-Puedes copiar este contenido y pegarlo directamente en tu archivo `README.md` dentro del repositorio. Si necesitas algún ajuste o adición, solo avísame y lo modifico para ti.

@@ -2,9 +2,9 @@
 Claro, aquí tienes un ejemplo de un archivo `README.md` que puedes utilizar para tu proyecto de **Spring Boot con PostgreSQL** para la gestión de estudiantes:
 
 ```markdown
-# Proyecto de Gestión de Estudiantes - Spring Boot y PostgreSQL
+# Proyecto de Gestión de Estudiantes - Spring Boot
 
-Este proyecto es una API RESTful construida con **Spring Boot** y utiliza **PostgreSQL** como base de datos. Su objetivo es proporcionar una plataforma para gestionar estudiantes en una universidad, permitiendo realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los registros de estudiantes.
+Este proyecto es una API RESTful construida con **Spring Boot**. Su objetivo es proporcionar una plataforma para gestionar estudiantes en una universidad, permitiendo realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los registros de estudiantes.
 
 ## Funcionalidades
 
@@ -53,10 +53,10 @@ Esto iniciará el servidor en el puerto **8080**.
 Una vez que la aplicación esté ejecutándose, podrás hacer solicitudes HTTP a la API:
 
 - **POST** `/estudiantes` para crear un estudiante.
-- **GET** `/estudiantes/{id}` para obtener un estudiante por ID.
+- **GET** `/estudiantes/id` para obtener un estudiante por ID.
 - **GET** `/estudiantes` para obtener la lista de estudiantes.
-- **PUT** `/estudiantes/{id}` para actualizar la información de un estudiante.
-- **DELETE** `/estudiantes/{id}` para eliminar un estudiante.
+- **PUT** `/estudiantes/id` para actualizar la información de un estudiante.
+- **DELETE** `/estudiantes/id` para eliminar un estudiante.
 
 Puedes probar estas solicitudes utilizando herramientas como **Postman** o **cURL**.
 
